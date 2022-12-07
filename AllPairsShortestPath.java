@@ -1,7 +1,10 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 
-public class Apsp {
+public class AllPairsShortestPath {
 
 	public static double INF = Double.POSITIVE_INFINITY;
 

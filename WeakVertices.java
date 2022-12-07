@@ -1,7 +1,10 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 
-public class For {
+public class WeakVertices {
 	
 	public static void main(String args[]) {
 		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));

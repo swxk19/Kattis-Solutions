@@ -1,8 +1,14 @@
-import java.util.*;
-import java.io.*;
-import java.text.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.PriorityQueue;
 
-public class arctic {
+public class ArcticNetwork {
 	
 	public static PriorityQueue<Pair> prim;
 	public static ArrayList<ArrayList<Pair>> adjList;

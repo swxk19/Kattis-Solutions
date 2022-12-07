@@ -1,7 +1,13 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.util.PriorityQueue;
+import java.util.TreeSet;
 
-public class BC {
+public class BlockCrusher {
 	public static int INF = 1000000;
 	public static int[] traverseX = {-1, 1, 0};
 	public static int[] traverseY = {-1, 1, 0};
